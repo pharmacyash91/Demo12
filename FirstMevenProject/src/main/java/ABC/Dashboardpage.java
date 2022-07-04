@@ -22,6 +22,7 @@ public class Dashboardpage {
 	public boolean verifycourse() {
 		boolean flag = false;
 				for(WebElement course: courses) {
+					
 					//flag = course.isDisplayed();
 					String namecourse = course.getText();
 					System.out.println("name of course:"+namecourse);
